@@ -14,19 +14,19 @@
                     <div class="card-body ">
                         <form action="/upload-peli" method="post" enctype="multipart/form-data">
                             
-                                    <input type="file" name="file" class="form-control" multiple>
+                                    <input type="file" name="file" class="form-control" multiple id="file-up"
+                                    accept=".mp4 , .mkv , .mpg ">
                            
                             
                                 <input type="text"id="title" name="title" placeholder="Title" class="form-control mt-2" autocomplete="off">
        
                                 <textarea name="description" placeholder="Description" class="form-control mt-2" id="content"></textarea>
 
-                                <button class="btn btn-info text-white col-md-12 mt-2 " id="btn">
+               <button class="btn btn-info text-white col-md-12 mt-2 " id="btn-up">
                                   Upload
                               </button>
                             </div>
                              
-                                
                               
                         </form>
                     </div>
@@ -37,7 +37,7 @@
     </div>
 
      
-  
+    <script src="js/validate.js">
     </script>
 </body>
 </html>
