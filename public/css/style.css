@@ -1,0 +1,103 @@
+.ul-mio{
+    font-size: 25px;
+    
+    margin-left: auto; 
+} 
+
+nav {
+    background:linear-gradient(to right,rgb(2, 255, 107),rgb(44, 255, 114),rgb(0, 204, 255) ,rgb(132, 23, 255),rgb(127, 28, 255));
+    
+}
+ nav img{
+      margin-right: 10px;
+     width: 50px;
+ }
+ .icon-spotify{
+     
+      color: rgb(67, 255, 92);
+  }
+ 
+  
+ 
+.logo{
+ 
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 4px; 
+    font-size: 40px;
+}
+ .title-video{
+     margin-top: 0;
+     margin-right: 48vw;
+ }
+.videos{ 
+    margin: 50px;
+}
+hr{
+    display: inline-block;
+}
+ 
+.peli-title{
+    float: left;
+}
+.music-title{
+  
+   float: right;
+}
+ 
+
+ 
+.card.home{
+   
+    background: transparent;
+}
+ 
+.card.home.pelis{
+    width: 50vw;
+    float: left;
+}
+.title-video{
+     margin: 1px;
+    display: inline-block;
+}
+.music-body{
+    margin: 30px;
+}
+ 
+ 
+ 
+ 
+.card-body{
+
+    padding: 40px;
+}
+.card-form{
+    margin-top: 20vh;
+}
+.fondo-login{
+    background:linear-gradient(to right,rgb(3, 217, 255),rgb(0, 255, 119),rgb(0, 119, 255));
+ }
+ #login{
+     font-size: 17px;
+     outline: none;
+    background:linear-gradient(to right,rgb(110, 0, 161),rgb(68, 0, 156),rgb(6, 104, 250),rgb(9, 118, 243));
+ }
+ #signup{ background:linear-gradient(to right,rgb(110, 0, 161),rgb(68, 0, 156),rgb(6, 104, 250),rgb(9, 118, 243));
+}
+  
+.icon-user,.icon-lock{
+     
+    margin-top: 4px;
+    margin-left: 10px;
+    left:0px;
+    position: absolute;
+    font-size: 30px;
+    
+}
+ 
+ 
+ 
+ 
+
+ 
+ 
+  

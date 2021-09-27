@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-include("partials/head")%>
+<body class="bg-dark">
+    <%-include("partials/navbar")%>
+    <div class="card home pelis">
+    <h1 class="display-4 text-center text-white">Peliculas<i class="icon-play m-4"></i></h1>
+    <hr class="text-white">
+    <% pelis.forEach(function (peli) { %> 
+      <div class= " animated fadeInUp col-md-6 videos">
+          <video src="<%= peli.path %>" controls class="card-img-top "> 
+      </div>
+      <div class="card-title text-white text-center">
+        <h5 class="title-video d-block"><%=peli.name%></h5> 
+        <a class="btn btn-outline-danger col-md-6 fs-5" href="/peli/<%=peli.id%>">Delete<i class="icon-trash m-2"></i></a>
+      </div> 
+      <% }) %> 
+  </div> 
+  <div class="card home music">
+    <h1 class="display-4 text-center text-white">Music<i class="icon-spotify m-4 "></i></h1>
+    <hr class="text-white">
+    <% musics.forEach(function (music) { %> 
+      <div class= "animated fadeInUp col-md-8 music-body">
+          <audio src="<%= music.path %>" controls class="card-img-top"> 
+      </div>
+      <div class="card-title text-white text-center">
+        <h5 class="title-music"><%=music.name%></h5>  
+        <a class="btn btn-outline-danger col-md-6 fs-5 " href="/music/<%=music.id%>">Delete<i class="icon-trash m-2  "></i></a>
+      </div> 
+      <% }) %> 
+  </div>
+</body>
+</html>

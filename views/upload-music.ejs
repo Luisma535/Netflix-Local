@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include("partials/head")%>
+    
+    <body class="bg-dark">
+   
+      <div class="container p-4">
+         
+            <div class="col-md-4 offset-md-4 mt-4">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h3>Upload Music <i class="icon-music"></i></h3>
+                    </div>
+                    <div class="card-body ">
+                        <form action="/upload-music" method="post" enctype="multipart/form-data">
+                            
+                                    <input type="file" name="file" class="form-control" multiple accept=".mp3 , .m4a">
+                           
+                            
+                                <input type="text"id="title" name="title" placeholder="Title" class="form-control mt-2" autocomplete="off">
+       
+                                <textarea name="description" placeholder="Description" class="form-control mt-2" id="content"></textarea>
+
+                                <button class="btn btn-info text-white col-md-12 mt-2 " id="btn">
+                                  Upload
+                              </button>
+                            </div>
+                             
+                                
+                              
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+
+    </div>
+
+     
+  
+    </script>
+</body>
+</html>
