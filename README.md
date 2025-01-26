@@ -15,12 +15,14 @@
 <h3>*Entramos a la BD*</h3>
 <h5>CREATE TABLE peliculas( 
     name VARCHAR(50) NOT NULL,
-    path VARCHAR(200) NOT NULL 
+    path VARCHAR(200) NOT NULL,
+    id Int(50) NOT NULL
 )</h5>
 <hr>
 <h5>CREATE TABLE music( 
     name VARCHAR(50) NOT NULL,
-    path VARCHAR(200) NOT NULL
+    path VARCHAR(200) NOT NULL,
+    id Int(50) NOT NULL
 )</h5>
 <hr> 
 <h2>Alguna duda vayan a la carpeta de db y ven el archivo .sql</h2>
